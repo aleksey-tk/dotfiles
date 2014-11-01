@@ -25,6 +25,9 @@ alias gx='gitx --all'
 alias got='git '
 alias get='git '
 
+## PHP alias
+alias php5='/Applications/Dev\ Desktop/php5_3/bin/php'
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
