@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -26,8 +26,8 @@ alias got='git '
 alias get='git '
 
 ## PHP alias
-alias php5='/Applications/Dev\ Desktop/php5_3/bin/php'
-
+#alias php='/Applications/Dev\ Desktop/php5_5/bin/php'
+#alias drush='/Applications/Dev\ Desktop/drush/drush'
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -62,13 +62,13 @@ alias php5='/Applications/Dev\ Desktop/php5_3/bin/php'
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-extras git-flow history nyan osx screen sublime terminalapp vundle)
+plugins=(git git-extras git-flow history nyan osx screen sublime terminalapp vundle brew mosh vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Adyax/.composer/vendor/bin:/opt/local/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -84,3 +84,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+# The fuck
+#eval $(thefuck --alias)
